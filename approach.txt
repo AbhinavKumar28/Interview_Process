@@ -1,0 +1,9 @@
+----------------------------------------------------------
+Approach 1 – (approach told on online meeting)
+Making group of 4 – 
+1st round - 0123 4567 (all have 3 connections)
+2nd round – 0145 2367 (0 and 1 have 2 connections with 4 and 5)
+This approach is wrong because at max one node can have 3 connections and we should keep the connections to be maximum to have minimum number of rounds. Therefore 0 and 1 can have 1 more connection each. The problem was that I misunderstood the question and thought that 0—1 connection is already made and is counted in the number of connections in 2nd round.
+----------------------------------------------------------
+Approach 2 
+Let each node form 3 new connections (if possibility exists) at every round so that minimum number of rounds are required. Take one node say 0 and n-1 (where n is number of nodes) connections need to be made for fully connected graph. In each round 3 new connections are made, so number of rounds will be math.ceil ((n-1)/3).  
