@@ -6,9 +6,7 @@ def solve(N):
     rounds = []
     while all_pairs:
         cur_round=[]
-        connections = {}
-        for i in range(N):
-            connections[i]=0
+        connections =[0]*N
         for u,v in sorted(all_pairs):
             if connections[u]<3 and connections[v]<3:
                 cur_round.append((u,v))
