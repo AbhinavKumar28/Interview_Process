@@ -9,3 +9,5 @@ Approach 2 (Wrong Approach)
 Let each node form 3 new connections (if possibility exists) at every round so that minimum number of rounds are required. Take one node say 0 and n-1 (where n is number of nodes) connections need to be made for fully connected graph. In each round 3 new connections are made, so number of rounds will be math.ceil ((n-1)/3).  
 This approach is wrong because in each round it is not possible that every node will be connected to 3 other nodes always.
 ----------------------------------------------------------
+Approach 3 
+Apply simple brute force and let computer find out the number of minimum rounds needed. Make a set of all pairs of connections and track each node of its number of connections. (Put a condition that it should be not greater than 3).
