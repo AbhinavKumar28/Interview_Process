@@ -52,6 +52,7 @@ function solve(N) {
         console.log("No graph possible with 1 node.")
     }
     else{
+        console.log("Number of rounds are",rounds.length);
         console.log(rounds);
     }
     rl.close();
