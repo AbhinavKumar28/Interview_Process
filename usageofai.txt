@@ -1,0 +1,5 @@
+Used google and ai for following purposes.
+1. Combinations syntax in python
+2. How to read input in javascript.
+3. array.from method
+4. error in array.fill.
